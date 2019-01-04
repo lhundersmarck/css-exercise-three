@@ -1,7 +1,12 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .container {
@@ -11,11 +16,58 @@ body {
 
 nav {
   margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #000000;
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  box-sizing: border-box;
+  padding-top: 57px;
+  width: 420px;
+}
+
+.location {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  background-color:	#F5F5F5;
+  width: 100%;
+  display: block;
+  padding: 3%;
+  border-top: .5px solid #484848;
+}
+
+.location:hover {
+    background-color: #B8B8B8;
+}
+
+.arrow {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  display: inline-block;
+  float: right;
+}
+
+.content {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 2%;
+}
+
+.content h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #000000;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.content h3 {
+  font-size: .9em;
+  color: #000000;
+  line-height: normal;
 }
